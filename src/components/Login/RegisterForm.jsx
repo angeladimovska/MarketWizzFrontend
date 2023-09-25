@@ -95,7 +95,7 @@ export const RegisterForm = () => {
                        style={ fieldErrors.matchingPassword ? { border: "1px solid red" } : {} }
                        type="password"
                        placeholder="Потврди лозинка"
-                       name="confirmPassword"
+                       name="matchingPassword"
                        value={ registerData.matchingPassword }
                        onChange={ onChange }
                 />
